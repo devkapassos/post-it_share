@@ -41,7 +41,7 @@ O Post-it Share é uma aplicação de notas rápidas que permite aos usuários c
 
 ## Estrutura de Código
 ***Backend***
-`app.js`: Configuração do servidor e rotas.
+- `app.js`: Configuração do servidor e rotas.
 - Rota `/notes`: Recebe o conteúdo da nota e retorna um link de compartilhamento.
 - Rota `/share/:id`: Exibe a nota com base no ID, e marca a nota como "aberta".
 - Banco de Dados: Realiza a limpeza de notas expiradas (não visualizadas após 7 dias ou já visualizadas há mais de 5 minutos).
